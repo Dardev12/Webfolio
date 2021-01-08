@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="MonStyle.css" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -21,6 +23,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
+    
     <title>DarDevPro</title>
 
     <style>
@@ -60,7 +64,7 @@
     }
 
     body{
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Ubuntu', sans-serif;
     }
   </style>
 </head>
@@ -68,10 +72,11 @@
     <div class="jumbotron text-center" style="margin-bottom:0; 
     background-image: url(img/DarDev.png); 
     background-size: 100%; ">
-        <h1>DardevPro</h1>
-        <p>Dévelloppeur Mobile et Web</p> 
+        <h1 class="foo">DardevPro</h1>
+        <p  class="foo">Dévelloppeur Mobile et Web</p> 
     </div>
-    <?php require('viewMenuebar.php'); ?>  
+    <?php require('viewMenuebar.php'); ?> 
+    <br> 
     <div class="container">
         
         <div class="row">
@@ -80,14 +85,17 @@
             </div>
         </div>
     </div>
+    <br>
 
-
-    <footer class="container-fluid text-center">
+    <footer class="Footing container-fluid text-center">
         <p></p>
     </footer>
 <!-- Copyright Section-->
-    <div class="copyright py-4 text-center text-dark">
+    <div class="Bottom copyright py-4 text-center text-dark">
         <div class="container" style="color:white"><small>© 2020 Portefolio de Darren. Tous droits réservés. Ce site est sous la responsabilité de DardevPro</small></div>
     </div>
+    <!-- Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="javascript/ScrollReveal.js"></script>
 </body>
 </html>      

@@ -1,16 +1,16 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">
-        <img src="img\DarDEVpro.ico" alt="Logo" style="width:40px;">
+<nav class="navbar navbar-expand-sm w3-blue-gray">
+    <a class="iphoto navbar-brand" <?php parDefaut("accueil"); ?> href="index.php?action=accueil">
+        <img src="img\DarDEVpro.ico" alt="Logo" style="width:80px;">
     </a>
     <ul class="navbar-nav">
         <li class="nav-item">
-        <strong><a class="nav-link text-danger" <?php parDefaut("accueil"); ?> href="index.php?action=accueil">Acceuil</a></strong>
+        <strong><a class="nav-link text-light"  <?php parDefaut("accueil"); ?> href="index.php?action=accueil">Acceuil</a></strong>
         </li>
         <li class="nav-item">
-        <strong><a class="nav-link text-danger" <?php parDefaut("portefolio"); ?> href="index.php?action=portefolio">Portefolio</a></strong>
+        <strong><a class="nav-link text-light" <?php parDefaut("portefolio"); ?> href="index.php?action=portefolio">Portefolio</a></strong>
         </li>
         <li class="nav-item">
-        <strong><a class="nav-link text-danger" <?php parDefaut("Apropos"); ?> href="index.php?action=Apropos">Contact</a></strong>
+        <strong><a class="nav-link text-light" <?php parDefaut("Apropos"); ?> href="index.php?action=Apropos">Contact</a></strong>
         </li>
 
     </ul>
