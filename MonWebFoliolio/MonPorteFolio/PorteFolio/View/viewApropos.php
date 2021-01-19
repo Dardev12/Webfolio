@@ -2,9 +2,15 @@
 
 <?php ob_start(); ?>
 
-<div class="w3-container w3-padding-large w3-grey">
+<div class="foo divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+</div>
+
+<div class="foo w3-container w3-padding-large w3-grey">
     <h4 id="contact"><b>Contactez-moi</b></h4>
-    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+    <div class="foo w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
       <div class="w3-third w3-dark-grey">
         <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
         <p>Dardevpro@outlook.com</p>
@@ -28,8 +34,14 @@
         <label>Message</label>
         <input class="w3-input w3-border" type="text" name="Message" required>
       </div>
-      <button type="submit" class="btn btn-warning"><i class="fa fa-paper-plane w3-margin-right"></i>Envoyé Message</button>
+      <button type="submit" class="btn btn-warning foo"><i class="fa fa-paper-plane w3-margin-right"></i>Envoyé Message</button>
     </form>
+  </div>
+
+  <div class="foo divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
   </div>
 
   <?php $contenu = ob_get_clean(); ?>

@@ -17,7 +17,7 @@
             <img src="img\bogos.jpg" class="img-responsive rounded-circle  mx-auto d-block" style="width:55%;" alt="Image">
         </div>
         <!--Script Pour affiche this div-->
-        <div class="foo w3-white rounded col-sm-8 pt-3 pb-3 pl-3 pr-3">
+        <div class="foo w3-grey rounded col-sm-8 pt-3 pb-3 pl-3 pr-3">
             <p> Nom : Lambert </p>
             <p> Prenom : Darren </p>
             <p> Mon Histoire : </p>
@@ -69,26 +69,26 @@
           <hr class="d-sm-none">
           <h3>Diplôme et Formation:</h3>
           <br>
-          <p><b>Formation Kotlin Masterclass.<img class="iphoto"src="img\icons8-kotlin-480.png" alt="Kotlin" style="width:15%;"></b></p>
+          <p><b>Formation Kotlin Masterclass.<img class="iphoto" src="img\icons8-kotlin-480.png" alt="Kotlin" style="width:15%;"></b></p>
           <p><b>Udemy,<span class="w3-tag w3-indigo w3-round">Juin/Juillet 2020</span></b></p>
           <hr>
-          <p><b>Formation Kotlin Design Patterns.<img src="bird.jpg" alt="Logo" style="width:40px;"></b></p>
+          <p><b>Formation Kotlin Design Patterns.<img class="iphoto" src="img\icons8-kotlin-480.png" alt="Kotlin" style="width:15%;"></b></p>
           <p><b>Udemy,<span class="w3-tag w3-indigo w3-round">Octobre 2020</span></b></p>
           <hr>
-          <p><b>Formation Android Jetpack Masterclass en Kotlin <img class="iphoto" src="img\icons8-android-64.png" alt="Android" style="width:40px;"></b></p>
+          <p><b>Formation Android Jetpack Masterclass en Kotlin <img class="iphoto" src="img\icons8-android-64.png" alt="Android" style="width:40px;"><img class="iphoto" src="img\icons8-kotlin-480.png" alt="Kotlin" style="width:15%;"></b></p>
           <p><b>Udemy,<span class="w3-tag w3-indigo w3-round">Janvier 2021 - en cours</span></b></p>
           <hr>
-          <p><b>Formation GNU/LINUX .</b></p>
+          <p><b>Formation GNU/LINUX .</b><img class="iphoto" src="img\icons8-linux-96.png" style="width:25%;"></p>
           <p><b>Udemy,<span class="w3-tag w3-indigo w3-round">Decembre 2020</span></b></p>
           <hr>
-          <p><b>Formation sur les bases de Docker</b></p>
+          <p><b>Formation sur les bases de Docker .</b><img class="iphoto" src="img\icons8-docker-96.png" style="width:25%;"></p>
           <p><b>Udemy,<span class="w3-tag w3-indigo w3-round">Decembre 2020</span></b></p>
           <hr>
           <p><b>DEC en Techniques de l'Informatique.</b></p>
-          <p><b>Cegep Beauce-Appalaches,<span class="w3-tag w3-indigo w3-round">Aout 2019 - en cours</span></b></p>
+          <p><b><img class="iphoto" src="img\cegepba.jpg" style="width:35%;">&nbsp<span class="w3-tag w3-indigo w3-round">Aout 2019 - en cours</span></b></p>
           <hr>
           <p><b>Titulaire d'un Bac Technologique(STI2D SIN).</b></p>
-          <p><b>Lycée Jean Joly,<span class="w3-tag w3-indigo w3-round">Aout 2017/Juin 2019</span></b></p>
+          <p><b><img class="iphoto" src="img\jeanjoly.jpg" style="width:35%;">&nbsp<span class="w3-tag w3-indigo w3-round">Aout 2017/Juin 2019</span></b></p>
           <br>
       </div>
         
@@ -99,14 +99,29 @@
                     <div class="divider-custom-line"></div>
       </div>
 
-      <div class="bar w3-container w3-card w3-white w3-margin-bottom rounded pt-3 pb-3 pl-3 pr-3">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Expérience Professionnels :</h2>
+      <div class="bar w3-container w3-card w3-indigo w3-margin-bottom rounded pt-3 pb-3 pl-3 pr-3">
+        <h2 class="w3-text-white w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-white"></i>Expérience Professionnels :</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Technicien Informatique / Centre-Hifi La Rivière</b></h5>
-          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2020 - <span class="w3-tag w3-indigo w3-round">Actuel</span></h6>
+          <h5 ><b>Technicien Informatique / Centre-Hifi La Rivière</b></h5>
+          <h6 class="w3-text-white"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2020 - <span class="w3-tag w3-white w3-round">Actuel</span></h6>
           <p>Mon travail consiste à réparer des Ordinateur (Software,Hardware), faire des préparations de PC ( mise en place d'un OS, antivirus et logiciel de bureautique), ainsi que configurer des routeurs et faire du dépannage à distance via TeamViewer.</p>
           <hr>
         </div>
+      </div>
+
+      <div class="bar divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+      </div>
+
+      <div class="bar w3-white rounded pt-3 pb-3 pl-3 pr-3">
+          <h2>Mes Passions :</h2>
+          <p><i class="fas fa-star"></i><b> Cuisine </b><img class="iphoto" src="img\icons8-restaurant-building-96.png" style="width:15%;"> </p>
+          <p><i class="fas fa-star"></i><b> Manga </b><img class="iphoto" src="img\icons8-japan-96.png" style="width:15%;"> </p>
+          <p><i class="fas fa-star"></i><b> Sport </b><img class="iphoto" src="img\icons8-strength-96.png" style="width:15%;"> </p>
+          <p><i class="fas fa-star"></i><b> Jeux de Cartes(Magic) </b><img class="iphoto" src="img\icons8-magic-the-gathering-arena-96.png" style="width:15%;"></p>
+          <p><i class="fas fa-star"></i><b> Coder </b><img class="iphoto" src="img\icons8-developer-64.png" style="width:15%;"> </p>
       </div>
 
       <div class="bar divider-custom">
@@ -120,16 +135,16 @@
           <br>
           <div class="row">
               <div class="col-sm-3">
-                <a class="iphoto btn btn-outline-light btn-social mx-1 btn-primary" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                <a class="iphoto btn btn-outline-light btn-social mx-1 w3-white" href="#!"><i class="fab fa-fw fa-facebook-f w3-blue" style="width:40px; height:40px;"></i></a>
               </div>
               <div class="col-sm-3">
-                <a class="iphoto btn btn-outline-light btn-social mx-1 btn-primary" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
+                <a class="iphoto btn btn-outline-light btn-social mx-1 w3-white" href="#!"><i class="fab fa-fw fa-instagram w3-pink" style="width:40px; height:40px;"></i></a>
               </div>
               <div class="col-sm-3">
-                <a class="iphoto btn btn-outline-light btn-social mx-1 btn-primary" href="https://www.linkedin.com/in/darren-lambert-b48a4a196/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="iphoto btn btn-outline-light btn-social mx-1 w3-white" href="https://www.linkedin.com/in/darren-lambert-b48a4a196/"><i class="fab fa-fw fa-linkedin-in w3-blue" style="width:40px; height:40px;"></i></a>
               </div>
               <div class="col-sm-3">
-                <a class="iphoto btn btn-outline-light btn-social mx-1 btn-primary" href="https://github.com/Dardev12"><i class="fab fa-fw fa-github"></i></a>
+                <a class="iphoto btn btn-outline-light btn-social mx-1 w3-white" href="https://github.com/Dardev12"><i class="fab fa-fw fa-github w3-deep-purple" style="width:40px; height:40px;"></i></a>
               </div>
 
           </div>  
@@ -171,7 +186,7 @@
               <div class="lvl w3-round-xlarge w3-container w3-blue w3-padding w3-center" style="width:65%">65%</div>
             </div>
             <br>
-            <p><i class="iphoto fab fa-fw fa-laravel" style="color: Tomato; font-size: 6rem;"></i> Laravel</p>
+            <p><img class="iphoto" src="img\icons8-laravel-96.png" style="width:15%;"> Laravel</p>
             <div class="w3-grey w3-round-xlarge">
               <div class="lvl w3-round-xlarge w3-container w3-blue w3-padding w3-center" style="width:50%">50%</div>
             </div>
@@ -191,12 +206,12 @@
               <div class="lvl w3-round-xlarge w3-container w3-blue w3-padding w3-center" style="width:80%">80%</div>
             </div>
             <br>
-            <p><i class="iphoto fab fa-fw fa-docker" style="color: DodgerBlue; font-size: 6rem;"></i> Docker</p>
+            <p><img class="iphoto" src="img\icons8-docker-96.png" style="width:15%;"> Docker</p>
             <div class="w3-grey w3-round-xlarge">
               <div class="lvl w3-round-xlarge w3-container w3-blue w3-padding w3-center" style="width:35%">35%</div>
             </div>
             <br>
-            <p><i class="iphoto fab fa-fw fa-linux" style="color: black; font-size: 6rem;"></i> Linux</p>
+            <p><img class="iphoto" src="img\icons8-linux-96.png" style="width:15%;"> Linux</p>
             <div class="w3-grey w3-round-xlarge">
               <div class="lvl w3-round-xlarge w3-container w3-blue w3-padding w3-center" style="width:50%">50%</div>
             </div>

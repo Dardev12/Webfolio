@@ -63,6 +63,12 @@
       .row.content {height: auto;} 
     }
 
+    #madiva{
+      display: none;
+    }
+    #cJoujou{
+      display: none;
+    }
     body{
       font-family: 'Ubuntu', sans-serif;
     }
@@ -88,7 +94,21 @@
     <br>
 
     <footer class="Footing container-fluid text-center">
-        <p></p>
+          <div class="row">
+              <div class="col-sm-3">
+                <a class="iphoto btn btn-outline-light btn-social mx-1" href="#!"><img class="iphoto" src="img\icons8-facebook-144.png" style="width:75%; height:45%;"> </a>
+              </div>
+              <div class="col-sm-3">
+                <a class="iphoto btn btn-outline-light btn-social mx-1" href="#!"><img class="iphoto" src="img\icons8-instagram-144.png" style="width:75%; height:45%;"></a>
+              </div>
+              <div class="col-sm-3">
+                <a class="iphoto btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/darren-lambert-b48a4a196/"><img class="iphoto" src="img\icons8-linkedin-144.png" style="width:75%; height:45%;"> </a>
+              </div>
+              <div class="col-sm-3">
+                <a class="iphoto btn btn-outline-light btn-social mx-1" href="https://github.com/Dardev12"><img class="iphoto" src="img\icons8-github-400.png" style="width:45%; height:25%;"></a>
+              </div>
+
+          </div>  
     </footer>
 <!-- Copyright Section-->
     <div class="Bottom copyright py-4 text-center text-dark">

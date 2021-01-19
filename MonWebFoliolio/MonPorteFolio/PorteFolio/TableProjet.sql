@@ -36,7 +36,9 @@ CREATE TABLE Language(
 
 CREATE TABLE LienProjet(
         Id       Int  Auto_increment  NOT NULL ,
-        Lien_git Varchar (50) NOT NULL
+        Lien_git Varchar (50) NULL,
+        Lien_PlayStore Varchar (50) NULL,
+        Lien_AppStore Varchar (50) NULL
 	,CONSTRAINT LienProjet_PK PRIMARY KEY (Id)
 )ENGINE=InnoDB;
 
@@ -90,7 +92,7 @@ CREATE TABLE Projet(
 CREATE TABLE UtilisePourProjet(
         Id_Language Int NOT NULL ,
         Id_Utilise Int NOT NULL
-	,CONSTRAINT UtilisePourProjet_PK PRIMARY KEY (Id,Id_Utilise)
+	,CONSTRAINT UtilisePourProjet_PK PRIMARY KEY (Id_Language,Id_Utilise)
 
 	,CONSTRAINT UtilisePourProjet_Language_FK FOREIGN KEY (Id_Language) REFERENCES Language(Id)
 	,CONSTRAINT UtilisePourProjet_Utilise0_FK FOREIGN KEY (Id_Utilise) REFERENCES Utilise(Id)
