@@ -17,11 +17,14 @@
             </div>
 
             <div id="madiva"class="w3-indigo rounded col-sm-9 pt-5 pb-5 pl-5 pr-5" >
-                <p>Date</p>
+            
+            <img src="img\wip-dl.png" class="img-responsive rounded-circle  mx-auto d-block" style="width:55%;" alt="Image">
+            <h3>Work in Progress</h3>
+                <!-- <p>Date</p>
                 <p>Description</p>
                 <p>Lien Github</p>
                 <p>Lien PlayStore</p>
-                <p>Language utilisé</p>
+                <p>Language utilisé</p> -->
             </div>
 
             <script>
@@ -45,15 +48,18 @@
         <div class="foo row w3-indigo rounded pt-5 pb-5 pl-5 pr-5">
             <div class="foo container-fluid col-sm-3 ">
             <h2>Systeme d'Inventaire Joujouthèque</h2>
-            <img id="Joujou"src="img\tinkerclub_logo.png" class="center-block img-responsive rounded-circle" style="width:100%" alt="Joujouthèque">
+            <img id="Joujou"src="img\joujou.png" class="center-block img-responsive rounded-circle" style="width:100%" alt="Joujouthèque">
             </div>
 
             <div id="cJoujou"class="w3-white rounded col-sm-9 pt-5 pb-5 pl-5 pr-5" >
-                <p>Date</p>
+            <img src="img\wip-dl.png" class="img-responsive rounded-circle  mx-auto d-block" style="width:55%;" alt="Image">
+            <h3>Work in Progress</h3>
+            <h3>The application will be launched this spring</h3>
+                <!-- <p>Date</p>
                 <p>Description</p>
                 <p>Lien Github</p>
                 <p>Lien PlayStore</p>
-                <p>Language utilisé</p>
+                <p>Language utilisé</p> -->
             </div>
 
             <script>

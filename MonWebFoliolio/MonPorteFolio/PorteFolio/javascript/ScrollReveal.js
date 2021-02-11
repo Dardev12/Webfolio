@@ -1,4 +1,4 @@
-const sr = ScrollReveal({ reset: true });
+const sr = ScrollReveal({ });
 
 sr.reveal('.foo',{ origin:'top',
  distance:'50px',
@@ -24,7 +24,6 @@ sr.reveal('.iphoto',{
     origin:'top',
     distance:'50px',
     mobile:true,
-    reset:true,
     scale:0.5,
     duration: 3000 
 })

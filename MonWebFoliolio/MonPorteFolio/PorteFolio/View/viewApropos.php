@@ -25,17 +25,23 @@
       </div>
     </div>
     <hr class="w3-opacity">
-    <form action="/action_page.php" target="_blank">
+
+    <img src="img\wip-dl.png" class="img-responsive rounded-circle  mx-auto d-block " style="width:55%;" alt="Image">
+    <br>
+    <h3 class="text-center">Work in Progress..</h3>
+               
+   
+    <!-- <form method="POST" action="Controller/MailVerif.php">
       <div class="w3-section">
-        <label>Nom</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
+        <label>Votre Adresse email</label>
+        <input class="w3-input w3-border" type="email" name="email" required>
       </div>
       <div class="w3-section">
         <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
+        <textarea name="message" cols=125 rows=5></textarea>
       </div>
       <button type="submit" class="btn btn-warning foo"><i class="fa fa-paper-plane w3-margin-right"></i>Envoyé Message</button>
-    </form>
+    </form> -->
   </div>
 
   <div class="foo divider-custom">

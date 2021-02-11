@@ -23,7 +23,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    
+    <link rel="icon" type="image/x-icon" src="img\DarDEVpro.ico" />
     
     <title>DarDevPro</title>
 
@@ -61,6 +61,7 @@
         padding: 15px;
       }
       .row.content {height: auto;} 
+      
     }
 
     #madiva{
@@ -78,8 +79,8 @@
     <div class="jumbotron text-center" style="margin-bottom:0; 
     background-image: url(img/DarDev.png); 
     background-size: 100%; ">
-        <h1 class="foo">DardevPro</h1>
-        <p  class="foo">Dévelloppeur Mobile et Web</p> 
+        <h1 class="foo">Darren Lambert</h1>
+        <p  class="foo"></p> 
     </div>
     <?php require('viewMenuebar.php'); ?> 
     <br> 
@@ -96,23 +97,23 @@
     <footer class="Footing container-fluid text-center">
           <div class="row">
               <div class="col-sm-3">
-                <a class="iphoto btn btn-outline-light btn-social mx-1" href="#!"><img class="iphoto" src="img\icons8-facebook-144.png" style="width:75%; height:45%;"> </a>
+                <a class="iphoto btn btn-social mx-1" href="#!" target="_blank"><img class="iphoto" src="img\icons8-facebook-144.png" style="width:45%; height:45%;"> </a>
               </div>
               <div class="col-sm-3">
-                <a class="iphoto btn btn-outline-light btn-social mx-1" href="#!"><img class="iphoto" src="img\icons8-instagram-144.png" style="width:75%; height:45%;"></a>
+                <a class="iphoto btn btn-social mx-1" href="#!" target="_blank"><img class="iphoto" src="img\icons8-instagram-144.png" style="width:45%; height:45%;"></a>
               </div>
               <div class="col-sm-3">
-                <a class="iphoto btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/darren-lambert-b48a4a196/"><img class="iphoto" src="img\icons8-linkedin-144.png" style="width:75%; height:45%;"> </a>
+                <a class="iphoto btn btn-social mx-1" href="https://www.linkedin.com/in/darren-lambert-b48a4a196/" target="_blank"><img class="iphoto" src="img\icons8-linkedin-144.png" style="width:45%; height:45%;"> </a>
               </div>
               <div class="col-sm-3">
-                <a class="iphoto btn btn-outline-light btn-social mx-1" href="https://github.com/Dardev12"><img class="iphoto" src="img\icons8-github-400.png" style="width:45%; height:25%;"></a>
+                <a class="iphoto btn btn-social mx-1" href="https://github.com/Dardev12" target="_blank"><img class="iphoto" src="img\icons8-github-144.png" style="width:45%; height:45%;"></a>
               </div>
 
           </div>  
     </footer>
 <!-- Copyright Section-->
     <div class="Bottom copyright py-4 text-center text-dark">
-        <div class="container" style="color:white"><small>© 2020 Portefolio de Darren. Tous droits réservés. Ce site est sous la responsabilité de DardevPro</small></div>
+        <div class="container" style="color:white"><small>© 2021 Portefolio de Darren. Tous droits réservés. Ce site est sous la responsabilité de Darren Lambert</small></div>
     </div>
     <!-- Scroll reveal-->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
