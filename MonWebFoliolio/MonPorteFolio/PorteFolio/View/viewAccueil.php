@@ -154,10 +154,10 @@
           <br>
           <div class="row">
               <div class="col-sm-3">
-                <a class="iphoto btn btn-social mx-1" href="#!" target="_blank"><img class="iphoto" src="img\icons8-facebook-144.png" style="width:200%; height:200%;"> </a>
+                <a class="iphoto btn btn-social mx-1" href="https://www.facebook.com/LeGrandMonarch/" target="_blank"><img class="iphoto" src="img\icons8-facebook-144.png" style="width:200%; height:200%;"> </a>
               </div>
               <div class="col-sm-3">
-                <a class="iphoto btn btn-social mx-1" href="#!" target="_blank"><img class="iphoto" src="img\icons8-instagram-144.png" style="width:200%; height:200%;"></a>
+                <a class="iphoto btn btn-social mx-1" href="https://www.instagram.com/dardev21/" target="_blank"><img class="iphoto" src="img\icons8-instagram-144.png" style="width:200%; height:200%;"></a>
               </div>
               <div class="col-sm-3">
                 <a class="iphoto btn btn-social mx-1" href="https://www.linkedin.com/in/darren-lambert-b48a4a196/" target="_blank"><img class="iphoto" src="img\icons8-linkedin-144.png" style="width:200%; height:200%;"> </a>
