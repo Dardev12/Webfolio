@@ -25,11 +25,11 @@
             Ma passion du codage à commencer lorsque j'ai codé en C#, Html, CSS.
             <br><br> 
             Au cours de mon programme j'ai dévelloppez un certain intérêt dans le domaine du web et du mobile,
-            j'ai pu aussi apprendre de nouveau concept(MVC,Design Patterns,Architecture en 3 couches).
+            j'ai pu aussi apprendre de nouveau concept(MVC,MVVM,Design Patterns,Architecture en 3 couches).
             <br><br> 
-            Depuis peu, je n'hésite pas à sortir de ma zone de confort pour apprendre de nouvelle chose en dehors de mon programme d'étude, tel que le language Kotlin pour le dévelloppement mobile ou encore le framework Laravel(php)  pour le dévelloppement Web.
+            Depuis peu, je n'hésite pas à sortir de ma zone de confort pour apprendre de nouvelle chose en dehors de mon programme d'étude, tel que le language Kotlin pour le dévelloppement mobile et actuellement j'utilise la technologie jetpack compose qui est une technologie très novatrice.
             <br><br> 
-            Annonce: Présentenement je suis à la recherche d'un stage d'été en informatique en tant que Developpeur mobile,Développeur web ou Développeur FullStack.<br>
+            Annonce: Présentenement je suis à la recherche d'un stage d'hiver en informatique en tant que Developpeur mobile.<br>
             Cela serait pour moi une expérience enrichissante sur le plan professionnels et me permettra aussi d’élargir mes compétences dans le domaine de la programmation. <br>
             Si vous etes intérresser par mon profil veuillez me contactez via Linkedin,Mail ou par téléphone.<br><br>
             Cordialement,<br>
@@ -124,6 +124,12 @@
           <h5 ><b>Technicien Informatique / Centre-Hifi La Rivière</b></h5>
           <h6 class="w3-text-white"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2020 - <span class="w3-tag w3-white w3-round">Actuel</span></h6>
           <p>Mon travail consiste à réparer des Ordinateur (Software,Hardware), faire des préparations de PC ( mise en place d'un OS, antivirus et logiciel de bureautique), ainsi que configurer des routeurs et faire du dépannage à distance via TeamViewer.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 ><b>Programmeur et Soutien Technique / Maximetal</b></h5>
+          <h6 class="w3-text-white"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2020 - <span class="w3-tag w3-white w3-round">Actuel</span></h6>
+          <p>Mon travail consiste à assister les employés lorsqu'il rencontre des problème, cération de script PowerShell pour automatisé les taches, ainsi que de programmer des fichiers Excel avec Vba.</p>
           <hr>
         </div>
       </div>

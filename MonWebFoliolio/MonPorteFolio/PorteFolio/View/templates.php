@@ -118,5 +118,8 @@
     <!-- Scroll reveal-->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="javascript/ScrollReveal.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="javascript/SendMail.js"></script>
+    
 </body>
 </html>      
